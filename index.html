@@ -6,43 +6,77 @@
     <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
 
     <style>
-        .content {
+        @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Lobster|Rock+Salt');
+        body {
+            font-family: "Baloo Paaji", Times, sans-serif;
+        }
+        
+        #content {
             width: 80%;
             margin: 0 auto;
         }
         
         nav {
-            background-color: #2F4471;
-            color: azure
+            color: white width: 70%;
+            margin: 0 auto;
+            text-align: left;
+            width: 70%;
+        }
+        
+        #logo {
+            text-align: center
+        }
+        
+        #top-row {
+            text-align: center;
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #246764;
         }
         
         #middle-row {
-            background-color: #2F4471;
-        }
-        
-        #mbottom-row {
+            text-align: center;
+            width: 70%;
+            margin: 0 auto;
             background-color: #2F4471;
         }
         
         #bottom-row {
-            text-align: center;
             width: 70%;
             margin: 0 auto;
+            text-align: center;
+            background-color: #246764;
         }
         
-        #end-row {
-            background-color: #2F4471;
+        p2 {
+            color: 2F4471;
+        }
+        
+        section {
+            padding: 15px;
         }
         
         h1,
         h2,
         h3,
-        {
+        h4 {
             color: #AA6C3B;
+            font-family: "Rock Salt", Times, serif;
         }
         
         p {
-            color: ghostwhite
+            color: ghostwhite;
+            line-height: 1.5;
+        }
+        
+        h2 {
+            margin-bottom: 5px;
+        }
+        
+        a {
+            color: #AA6C3B;
+            text-decoration: none;
         }
 
     </style>
@@ -50,7 +84,9 @@
 
 <body>
     <div class="content">
-        <img alt="what does this do" src="https://lh3.googleusercontent.com/-6sS0fZD5Tk8/V_1fWDkzIoI/AAAAAAAAP4c/s90NN0Ld41QHH7gR9VpTBhWmDm9Emyl0QCL0B/w316-d-h436-p/Dry%2BOar%2BTRIAL.png">
+        <section><img alt="what does this do" src="https://lh3.googleusercontent.com/-6sS0fZD5Tk8/V_1fWDkzIoI/AAAAAAAAP4c/s90NN0Ld41QHH7gR9VpTBhWmDm9Emyl0QCL0B/w316-d-h436-p/Dry%2BOar%2BTRIAL.png">
+        </section>
+
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -60,15 +96,13 @@
                 <li><a href="#">Insta</a></li>
             </ul>
         </nav>
-
-        <img alt="Water" src="http://brothert.net/dryoar/images/river-wide.JPG">
-
-        <section id="middle-row">
+        <section id="top-row">
+            <img alt="Water" src="http://brothert.net/dryoar/images/river-wide.JPG">
             <h2> We run rivers to relax! </h2>
             <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love. </p>
         </section>
 
-        <section id="mbottom-row">
+        <section id="middle-row">
             <img alt="Rating" src="http://brothert.net/dryoar/images/raft-rapid.jpg">
             <h2>We run Whitewater for the rush </h2>
             <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
@@ -78,8 +112,8 @@
             <img alt="Foushee" src="https://lh3.googleusercontent.com/-ZAt9fv6VTjg/WAKmkp9tx5I/AAAAAAAAP5w/a3t6lctX8DY5mYn0AcX-oefxGqzSwOu8ACL0B/w840-d-h556-p/foushee%2Brafting.png">
             <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
         </section>
-        <footer>
-            <p>&copy; 2016 Dry Oar || Ingram Beck </p>
+        <footer id="footer">
+            <p2>&copy; 2016 Dry Oar || Ingram Beck </p2>
         </footer>
     </div>
 </body>
