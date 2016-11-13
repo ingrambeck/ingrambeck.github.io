@@ -1,0 +1,157 @@
+/* CSS - Name: "positionstyles.css" */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Activity 1 styles */
+
+.content1 {
+    display: flex;
+}
+.red1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.green1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.yellow1 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.blue1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* Activity 2 styles */
+
+.red2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.green2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.yellow2 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.blue2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* Activity 3 styles */
+
+.red3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.green3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.yellow3 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.blue3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* Activity 4 styles */
+
+.red4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.green4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.yellow4 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.blue4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* Activity 5 styles */
+
+.red5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.green5 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.yellow5 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.blue5 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* Activity 6 styles */
+
+.red6 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+.green6 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    margin: 15px
+}
+.yellow6 {
+    width: 100%;
+    background-color: gold;
+    padding: 15px
+}
+.blue6 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+.activity {
+    width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    padding: 10px;
+    clear: both;
+    overflow: auto;
+}
