@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Lobster|Rock+Salt');
+body {
+    font-family: "Baloo Paaji", Times, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+#content {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+nav li {
+    flex: 1 0 7em;
+}
+#logo {
+    text-align: center;
+    width: 150px;
+}
+#top-row {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+#middle-row {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+#bottom-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #246764;
+}
+#top-row > div,
+#middle-row > div {
+    flex: 1 0 15em;
+    padding: .5em;
+}
+#top-row img,
+#middle-row img,
+#top-picture img {
+    width: 100%;
+}
+p2 {
+    color: 2F4471;
+}
+section {
+    padding: 15px;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: #AA6C3B;
+    font-family: "Lobster", Times, serif;
+}
+p {
+    color: ghostwhite;
+    line-height: 1.5;
+}
+h2 {
+    margin-bottom: 5px;
+}
+a {
+    color: #AA6C3B;
+    text-decoration: none;
+}
+#pic {
+    text-align: center;
+}
+.green-box {
+    background-color: #246764;
+}
+.blue-box {
+    background-color: #2F4471;
+}
+#top-picture {
+    width: 100%;
+}
