@@ -23,6 +23,17 @@ nav ul {
 nav li {
     flex: 1 0 7em;
 }
+h2 ul {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+}
+h2 li {
+    flex: 1 0 9em;
+    text-align: left;
+    margin-top: -7em;
+    font-size: 110%;
+}
 #logo {
     text-align: center;
     width: 150px;
@@ -54,11 +65,13 @@ nav li {
 }
 #top-row img,
 #middle-row img,
-#top-picture img {
+#top-picture img,
+#what-to-bring img {
     width: 100%;
 }
 p2 {
-    color: 2F4471;
+    color: #2F4471;
+    font-family: "permanent marker", times, serif;
 }
 section {
     padding: 15px;
@@ -70,6 +83,10 @@ h4 {
     color: #AA6C3B;
     font-family: "Permanent marker", Times, serif;
     font-size: 210%;
+}
+p3 {
+    color: white;
+    font-size: 400%;
 }
 p {
     color: ghostwhite;
@@ -98,6 +115,16 @@ a {
 #kid-friendly,
 #water {
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between
+    flex-flow: row wrap;
+    flex: 1 0 15em;
+    padding: .5em;
+}
+#sun,
+#fun {
+    flex-flow: row wrap;
+    flex: 1 0 15em;
+    padding: .5em;
+}
+#what-to-bring {
+    width: 200%;
 }
