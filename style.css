@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Lobster|Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Lobster|Open+Sans|Pacifico|Permanent+Marker|Source+Sans+Pro');
 body {
-    font-family: "Baloo Paaji", Times, sans-serif;
+    font-family: "source sans pro", Times, sans-serif;
 }
 img {
     max-width: 100%;
@@ -68,7 +68,8 @@ h2,
 h3,
 h4 {
     color: #AA6C3B;
-    font-family: "Lobster", Times, serif;
+    font-family: "Permanent marker", Times, serif;
+    font-size: 210%;
 }
 p {
     color: ghostwhite;
@@ -92,4 +93,11 @@ a {
 }
 #top-picture {
     width: 100%;
+}
+#food,
+#kid-friendly,
+#water {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between
 }
